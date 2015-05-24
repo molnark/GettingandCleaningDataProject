@@ -14,6 +14,6 @@ The R script: `run_analysis.R`was constructed with the 5 steps described in the 
 * `testData`, `trainData`, `testAct`, `trainAct`, `testSubject` and `trainSubject` contain the data from the files test and train folders
 * `mData`, `mAct` and `mSubject` merge the respective previous datasets.
 * `features` holds the names for the `mData` dataset. `meanStdPos` determines the position in 'features' of the mean & std measurements, and then is used to subset them out.
-*`actLabels` holds the activity file after being read into R, `activities` holds the properly formated names. 
+* `actLabels` holds the activity file after being read into R, `activities` holds the properly formated names. 
 * `cData` merges `mData`, `mAct` and `mSubject` into the big dataset.
 * Lastly, `final` contains the data which will later by used to create a .txt file with write.table
