@@ -1,4 +1,4 @@
-#Intro
+#Intro & Steps
 
 The R script: `run_analysis.R`was constructed with the 5 steps described in the Getting and Cleaning Data Project
 * The data was obtained from obtained from (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip ) 
